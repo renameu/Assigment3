@@ -125,3 +125,21 @@ mydict1.update(mydict2)
 print(mydict1)
 
 
+print("9")
+d_data1 = {'Artyom': 17,
+           'Raim': 8,
+           'Bayr': 12}
+print("Given dictionary is: ", d_data1)
+removal = input("Enter the key to be removed: ")
+d_data1.pop(removal, None)  # remove entered element
+print("After removal: ", d_data1)
+
+
+
+print("10")
+l_elements = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print("Given list:", l_elements)
+u_elements = set(l_elements)  # show repeated elements once
+print("Unique Elements set: ", u_elements)
+
+
